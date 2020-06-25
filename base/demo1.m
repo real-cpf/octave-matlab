@@ -107,9 +107,9 @@ Aa2=angle(A)*180/pi
 
 %% 衰减振荡曲线  y=e^(1/3)*sin(3t)  t=[0:4pi]
 
-t=0:pi/50:4*pi;			%
-y=exp(-t/3).*sin(3*t);	%
-plot(t,y,'-r','LineWidth',2)				%
+t=0:pi/50:4*pi;			
+y=exp(-t/3).*sin(3*t);	
+plot(t,y,'-r','LineWidth',2)				
 axis([0,4*pi,-1,1])
 xlabel('t'),ylabel('y')
 
